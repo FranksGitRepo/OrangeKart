@@ -1,0 +1,10 @@
+.bodyContainer{
+    margin: 0px;
+    height: 90vh;
+    width: 100%;
+    flex-direction: row;
+}
+
+.Main_Container{
+    width: 100%;   
+}

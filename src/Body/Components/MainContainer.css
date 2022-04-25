@@ -1,0 +1,98 @@
+.MainItemContainer  {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    margin-right: 0px;
+}
+.itemcotainer{
+    height:400px;
+    width: 100%;
+    margin-bottom:20px ;
+    overflow: hidden;
+    
+    
+}
+.ProductHeading{
+    display: flex;
+    flex-direction: row;
+    
+}
+.ProductHeading h2{
+    flex: 1;
+    
+}
+.ProductHeading .Productheadingsidenote{
+    flex: 1;
+    
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-direction: row;
+}
+.Vewmore{
+    text-decoration: none;
+    color:#C14086;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+}
+.leftarrow{
+    padding-top: 2px;
+}
+.viewbutton{
+    border-style: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.viewbutton:hover{
+    background-color: #C14086;
+    color: white;
+}
+.ProductContainer{
+    overflow: hidden;
+}
+@media only screen and (max-width: 600px){
+    .itemcotainer{
+        height:auto;
+        width: 100%;
+        margin-bottom:20px ;
+        padding: 0px 10px 5px;  
+    }
+    .ProductHeading{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+    }
+    .ProductHeading h2{
+        flex: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .ProductHeading .Productheadingsidenote{
+        flex: 1;
+        
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        flex-direction: row;
+    }
+    .Vewmore{
+        text-decoration: none;
+        color:#C14086;
+        margin-right: 3px;
+        display: flex;
+        flex-direction: row;
+        font-weight: 600;
+    }
+    .viewbutton{
+        display: none;
+    }
+}

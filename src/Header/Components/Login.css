@@ -1,0 +1,97 @@
+.LoginContainer{
+    position: absolute;
+    top: 50px;
+    right:50vh;
+    left: 75vh;
+    width: 400px;
+    height: 87vh;
+    border-radius: 20px;
+    padding: 0px 20px 2px;
+    background-color: white;
+    border: 1px solid black;
+}
+.LoginFormContainer{
+    display: flex;
+    flex-direction: column;
+    
+}
+.Loginseperatorscontainer{
+    display: flex;
+    flex-direction: row;
+}
+.Loginseperators{
+    width: 100%;
+    height: 0px;
+}
+.ortext{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 8px;
+    padding-top: 0px;
+    
+}
+.ortext span{
+    margin-top: 0px;
+    font-size: 14px;
+    
+}
+.formchildren{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 0.5px solid black;
+}
+.facebook{
+    background-color: rgb(66, 103, 178);
+}
+.google{
+    background-color:rgb(43, 120, 198);
+}
+.flx{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    cursor: pointer;
+}
+.fbgtxt{
+    font-size: 1rem;
+    flex: 1;
+    color: white;
+    font-weight: 600;
+}
+.buttonlogincontainer{
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+    background-color: #C14086;
+    cursor: pointer;
+}
+.resetpwd{
+    color: #C14086;
+    cursor: pointer;
+}
+.Footerlogin{
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+}
+.Footersignuptext{
+    color: #C14086;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px){
+    .LoginContainer{
+        position: absolute;
+        top: 100px;
+        right:0%;
+        left: 15%;
+        width: 400px;
+        height: 87vh;
+        border-radius: 20px;
+        padding: 0px 20px 2px;
+        background-color: white;
+        border: 1px solid black;
+    }
+}
