@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/OrangeKart/static/css/main.4e277798.css",
+    "main.css": "/OrangeKart/static/css/main.e17ec29b.css",
     "main.js": "/OrangeKart/static/js/main.5539708a.js",
     "static/js/787.d69d7328.chunk.js": "/OrangeKart/static/js/787.d69d7328.chunk.js",
     "static/media/Frame.jpg": "/OrangeKart/static/media/Frame.c604bfd209c163cf7509.jpg",
     "index.html": "/OrangeKart/index.html",
-    "main.4e277798.css.map": "/OrangeKart/static/css/main.4e277798.css.map",
+    "main.e17ec29b.css.map": "/OrangeKart/static/css/main.e17ec29b.css.map",
     "main.5539708a.js.map": "/OrangeKart/static/js/main.5539708a.js.map",
     "787.d69d7328.chunk.js.map": "/OrangeKart/static/js/787.d69d7328.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e277798.css",
+    "static/css/main.e17ec29b.css",
     "static/js/main.5539708a.js"
   ]
 }
