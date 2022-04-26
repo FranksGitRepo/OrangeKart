@@ -148,3 +148,21 @@
         
     }
 }
+@media only screen and (max-width: 450px){
+    .cartContainer{
+        position: absolute;
+        top: 0px;
+        right:0px;
+        left: 0px;
+        width: 410px;
+        height: 99vh;
+        padding: 0px 20px 2px;
+        background-color: rgb(247, 247, 247);
+        border: 1px solid black;
+        padding: 0px;
+        box-sizing: border-box;
+        padding-top: 0px;
+        z-index: 10;
+        
+    }
+}

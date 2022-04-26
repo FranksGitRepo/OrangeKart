@@ -8,3 +8,17 @@
 .Main_Container{
     width: 100%;   
 }
+@media only screen and (max-width: 600px){
+    .bodyContainer{
+        height: 100%;
+        width: 560px;
+        flex-direction: row;
+    }
+}
+@media only screen and (max-width: 450px){
+    .bodyContainer{
+        height: 100%;
+        width: 400px;
+        flex-direction: row;
+    }
+}
