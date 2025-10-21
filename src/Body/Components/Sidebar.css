@@ -1,163 +1,155 @@
-.MainContainer{
-    box-sizing: border-box;
-    position: relative;
-    position: sticky;
-    left: 0px;
-    bottom: 80px;
+.MainContainer {
+  box-sizing: border-box;
+  position: relative;
+  position: sticky;
+  left: 0px;
+  bottom: 80px;
+  width: 100%;
 }
-.Shopdetails{
-    width: 255px;
-    height: 100%;
-    padding: 10px 10px 0px;
-    padding-bottom: 0px;
-    box-sizing: border-box;
-    position: sticky;
-    top: 0px;   
-    left: 0px;
-    right: 0px;
-    z-index: 2;
-    background-color: white;
+.Shopdetails {
+  width: 255px;
+  padding: 10px 10px 0px;
+  padding-bottom: 0px;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 2;
+  background-color: white;
 }
-.Shopimgname{
-    width: 100%;
-    height: 46%;
-    box-sizing: border-box;
-    
+.Shopimgname {
+  width: 100%;
+  height: 46%;
+  box-sizing: border-box;
 }
-.shopheading{
-    height: 100%;
-    padding-top: 24px;
-    padding-right:16px ;
-    padding-left:16px ;
-    padding-bottom:16px ;
-    box-sizing: border-box;
+.shopheading {
+  height: 100%;
+  padding-top: 24px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+  box-sizing: border-box;
 }
-.Shopimgname a{
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
-    
+.Shopimgname a {
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
 }
-.Shopimgname a img{
-    margin-top: 10px;
-    margin-left: 50px;
+.Shopimgname a img {
+  margin-top: 10px;
+  margin-left: 50px;
 }
-.Shopimgname a h2{
-    margin-top: 0px;
-    box-sizing: border-box;
-    font-size: medium;
-    width: fit-content;
-    margin-left: 10px;
+.Shopimgname a h2 {
+  margin-top: 0px;
+  box-sizing: border-box;
+  font-size: medium;
+  width: fit-content;
+  margin-left: 10px;
 }
-.shopedetails{
-    list-style: none;
-    text-decoration: none;
-    font-size: small;
-    margin-top: 0px;
-    margin-left: 40px;
-    display: flex;
-    flex-direction: row;
-    height: 20px;
-    
-    
+.shopedetails {
+  list-style: none;
+  text-decoration: none;
+  font-size: small;
+  margin-top: 0px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: row;
+  height: 20px;
 }
-.Everytext{
-    font-size: 12px;
-    margin-top: 0px;
+.Everytext {
+  font-size: 12px;
+  margin-top: 0px;
 }
-.lessarsymbol{
-    
-    margin-top: 1px;
+.lessarsymbol {
+  margin-top: 1px;
 }
-.lesserthansymbal{
-    align-items: center;
-    justify-content: center;
-    background-color: grey;
+.lesserthansymbal {
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
 }
-.satisbutton{
-    background-color: white;
-    border-style: none;
-    height: 20px;
+.satisbutton {
+  background-color: white;
+  border-style: none;
+  height: 20px;
 }
-.satisfaction{
-    display: flex;
-    flex-direction: row;
-    background-color: white;
-    height: 100%;
+.satisfaction {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  height: 100%;
 }
-.verified{
-    margin-left:11px ;
+.verified {
+  margin-left: 11px;
 }
-.satistext{
-    padding: 0px;
-    font-size: 12px;
-    margin-top: 0px;
+.satistext {
+  padding: 0px;
+  font-size: 12px;
+  margin-top: 0px;
 }
-.lessarthansymbol{
-    margin-top: 1px;
+.lessarthansymbol {
+  margin-top: 1px;
 }
-.seperators{
-    border: 1px solid rgb(232, 233, 235);
-    margin-bottom: 0px;
-    margin-top: 12px;
-    margin-left: 5px;
-    position: absolute;
-    left: 0px;
-    width: 245px;
-    z-index: 1;
+.seperators {
+  border: 1px solid rgb(232, 233, 235);
+  margin-bottom: 0px;
+  margin-top: 12px;
+  margin-left: 5px;
+  position: absolute;
+  left: 0px;
+  z-index: 1;
+  width: 100%;
 }
-.shopfooter{
-    margin-top: 30px;
-    margin-bottom: 0px;
-    list-style: none;
-    
-    margin-left: 0px;
-    
+.shopfooter {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  list-style: none;
+
+  margin-left: 0px;
 }
-.shoprecip{
-    display: flex;
-    margin-bottom: 10px;
+.shoprecip {
+  display: flex;
+  margin-bottom: 10px;
 }
-.shoprecip a{
-    text-decoration: none;
+.shoprecip a {
+  text-decoration: none;
 }
-.txtsprc{
-    margin-left: 10px;
-    font-weight: 700;
-    margin-top: 0px;
-    font-size: 16px;
+.txtsprc {
+  margin-left: 10px;
+  font-weight: 700;
+  margin-top: 0px;
+  font-size: 16px;
 }
-.menucontainer{
-    margin-top: 0px;
-    padding: 16px 12px 12px;
-    list-style: none;
-    z-index: 1;
+.menucontainer {
+  margin-top: 0px;
+  padding: 16px 12px 12px;
+  list-style: none;
+  z-index: 1;
 }
-.Menuitems a{
-    font-size: 15px;
-    line-height: 28px;
-    font-weight: 600;
-    color: rgb(52, 53, 56);
-    width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    -webkit-box-align: center;
-    align-items: center;
-    box-sizing: border-box;
-    border-radius: 8px;
-    position: relative;
-    text-decoration: none;
-    cursor: pointer;
-    padding-right: 12px;
-    padding-left: 12px;
-    
+.Menuitems a {
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: 600;
+  color: rgb(52, 53, 56);
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 8px;
+  position: relative;
+  text-decoration: none;
+  cursor: pointer;
+  padding-right: 12px;
+  padding-left: 12px;
 }
 .Menuitems {
-    line-height: 1.15;
-    text-size-adjust: 100%;
-    margin-bottom: 10px;
-    
+  line-height: 1.15;
+  text-size-adjust: 100%;
+  margin-bottom: 10px;
 }
-.Menuitems a:hover{
-    background-color: rgb(246, 247, 248);
+.Menuitems a:hover {
+  background-color: rgb(246, 247, 248);
 }
